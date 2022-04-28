@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>𝙕𝙚𝙣𝙪𝙨 𝙏𝙚𝙖𝙢</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/952326118847946782/952326216151601162/z.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="slides">
+        <div class="overlay">
+            <nav class="navbar">
+                <div class="content">
+                    <div class="logo">
+                        <a href="#">𝙕𝙚𝙣𝙪𝙨 𝙏𝙚𝙖𝙢</a>
+                    </div>
+                    <ul class="menu-list">
+                        <div class="icon cancel-btn">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="https://discord.gg/76rp97bjwK">Discord</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdAtwxrpCXb369XqRGltmddRJf9uBGKFoRyD1fF5c8PRiTUmg/viewform?usp=pp_url">Sell</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScVm4YaQ7IvCFrhY8iH1oqEQnDz3J-U66r9jmv7STD1RC-kyA/viewform?usp=pp_url">Staff</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="icon menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="slides-container" id="home">
+            <img src="img/zteam.png " alt=" " />
+            <img src="img/zteam.png " alt=" " />
+        </div>
+        <div class="titleMessage">
+            <div class="heading">
+                <div class="main-anim">
+                    <p class="main" style="color: #ff0000;"></p>
+                    <h2 style="color: rgb(255, 255, 255);">Ženuš Team</h2>
+                    <h1>
+                        <a class="typewrite" data-period="3000" data-type='[ "Made by !Mak1s#8300" ]' style="font-size: 18px; top: 50px; color: rgb(255, 255, 255); ">
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                </div>
+                <div class="content">
+                    <a href="https://discord.gg/76rp97bjw" style="color: black;">
+                        <button class="btn btn4">Discord</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about" class="section ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-5">
+                    <img class="aboutImage" src="https://cdn.discordapp.com/attachments/952326118847946782/952973312370311218/ezgif-4-4980e64f6f.gif " alt=" " href="# ">
+                </div>
+
+                <div class="col-md-7 ">
+                    <h4 class="about ">
+                        <p>Kαλησπέρα, το Ženuš είναι ένα καινούργιο project το οποίο σε λίγο καιρό θα γίνει κάτι αρκετά μεγάλο μπες και εσύ να βοηθήσεις ,</p>
+                        <p>το shop περιέχει:</p>
+                        <p>• Discord services</p>
+                        <p>• PayPal to PaySafe (p2p)</p>
+                        <p>• Nitro stocks</p>
+                        <p>• Fivem Developers</p>
+                        <p>• Desginers</p>
+                        <p>• Και πολλά άλλα</p>
+                        <p>Επίσης τρέχει giveaway για κάθε στόχο που πετυχαίνουμε.</p>
+                        <p><a href="https://discord.gg/YczMKyMsbY" style="color: white;">Μπες να δοκιμάσεις την τύχη σου !</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="pr" class="skillsSection section ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+                    <h2>Products</h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-pr " id="fullPrBox ">
+        <img src="./img/Designs.png " id="fullPr ">
+        <span onclick="closeFullPr() ">✖</span>
+    </div>
+    <div class="products " style="background: #202020; ">
+        <img src="./img/Designs.png " onclick="openFullPr(this.src) ">
+        <img src="./img/discord-bots.png " onclick="openFullPr(this.src) ">
+        <img src="./img/Fivem-Scripts.png " onclick="openFullPr(this.src) ">
+        <img src="./img/nitro-stocks.png " onclick="openFullPr(this.src) ">
+        <img src="./img/p2p(2).png " onclick="openFullPr(this.src) ">
+    </div>
+
+    <script>
+        var fullPrBox = document.getElementById("fullPrBox ");
+        var fullPr = document.getElementById("fullPr ");
+
+        function openFullPr(pic) {
+            fullPrBox.style.display = "flex ";
+            fullPr.src = pic;
+        }
+
+        function closeFullPr() {
+            fullPrBox.style.display = "none ";
+        }
+    </script>
+
+    <div id="contact" class="contactSection section ">
+        <div class="col-md-12 text-center ">
+            <h2>Χρειάζεσται περισσότερη βοήθεια ;</h2>
+            <a href="https://discord.gg/TZN2RqTuCJ " class="contactButton ">Επικοινωνήστε μαζί μας</a>
+        </div>
+    </div>
+
+    <div class="copyrightSection ">
+        <div class="col-md-12 text-center ">
+            <p>
+                copyright &copy; 2021 - 2022 all rights reserved to <b>Mak1s Dev Team</b>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap ">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            var css = document.createElement("style ");
+            css.type = "text/css ";
+            css.innerHTML = ".typewrite> .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            navbar.classList.add("show");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabled");
+        }
+        cancelBtn.onclick = () => {
+            body.classList.remove("disabled");
+            navbar.classList.remove("show");
+            menuBtn.classList.remove("hide");
+        }
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js "></script>
+    <script src="js/countUp-jquery.js "></script>
+    <script src="js/jquery.superslides.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.easypiechart.min.js "></script>
+    <script src="js/typed.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script type="text/javascript " src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/script.js "></script>
+    <script src="js/scr-reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+
+                if (this.hash !== "") {
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
